@@ -1,0 +1,160 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: #61dafb;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #61dafb;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #61dafb;
+}
+
+.register{
+  margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+
+}
+.register h1{
+  margin-left: 8%;
+}
+.login h1{
+  margin-left: 8%;
+}
+
+.register button{
+  margin-left: 6%;
+    border: 1px solid #61dafb;
+    background: aliceblue;
+    width: 178px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.login button{
+  margin-left: 2%;
+    border: 1px solid #61dafb;
+    background: aliceblue;
+    width: 145px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.nav-sign{
+  text-align: right;
+}
+
+.logo{
+  width: 62px;
+  float: left;
+  border-radius: 50%;
+  margin: 3px 8px;
+}
+.addStud {
+  margin-left: 30%;
+}
+.addStud h1 {
+  margin-left: 5%;
+}
+
+.addStud button{
+  margin-left: 8%;
+    border: 1px solid #61dafb;
+    background: aliceblue;
+    width: 145px;
+    height: 43px;
+    border-radius: 10px;
+}
+
+.invalid-inp{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+
+.student-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.student-list ul li{
+  display: inline-block;
+  border: 1px solid #61dafb;
+  padding: 5px;
+  width: 260px;
+  height: 35px;
+}
+.student-list ul{
+  margin: 0;
+}
+.student-list input{
+  border: 1px solid #61dafb;
+  padding-left: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 40px;
+
+}
+
+.profile{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
